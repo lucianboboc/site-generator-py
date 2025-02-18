@@ -7,7 +7,7 @@ class HTMLNode():
             tag: str | None = None,
             value: str | None = None,
             children: list[Self] | None = None,
-            props: dict[str, Any] | None = None
+            props: dict[str, str] | None = None
     ):
         self.tag = tag
         self.value = value
