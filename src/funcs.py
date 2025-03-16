@@ -1,4 +1,3 @@
-from django.utils.lorem_ipsum import paragraph
 from htmlnode import HTMLNode
 from parentnode import ParentNode
 from textnode import BlockType, TextNode, TextType
